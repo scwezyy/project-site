@@ -1,3 +1,6 @@
+document.getElementById('audio-player').volume = 0.2;
+document.getElementById('volume-slider').value = 0.2;
+
 // Объявляем все элементы DOM в начале
 const audioPlayer = document.getElementById('audio-player');
 const songTitle = document.getElementById('song-title');
@@ -30,6 +33,7 @@ const checkElement = (element, name) => {
   return true;
 };
 
+
 // База данных альбомов и треков
 const gameAlbums = [
     {
@@ -49,9 +53,15 @@ const gameAlbums = [
                 id: 102,
                 title: "Silver for Monsters",
                 duration: "3:22",
-                file: "audio/silverForMonsters.mp3"
+                file: "audio/silverFM.mp3"
+            },
+            {
+                id: 102,
+                title: "The Battle of Kaer Morhen",
+                duration: "4:06",
+                file: "audio/theBattle.mp3"
             }
-        ]
+        ]   
     },
     {
         id: 2,
@@ -63,8 +73,20 @@ const gameAlbums = [
             {
                 id: 201,
                 title: "The Rebel Path",
-                duration: "5:14",
-                file: "audio/rebelPath.mp3"
+                duration: "4:12",
+                file: "audio/theRebelPath.mp3"
+            },
+            {
+                id: 202,
+                title: "I Really Want to Stay at Your House",
+                duration: "4:07",
+                file: "audio/iRealyWant.mp3"
+            },
+            {
+                id: 203,
+                title: "On My Way to Hell",
+                duration: "5:20",
+                file: "audio/onMyWay.mp3"
             }
         ]
     }
@@ -212,7 +234,7 @@ function toggleMute() {
         volumeSlider.value = 0;
         volumeBtn.innerHTML = '<i class="fas fa-volume-mute"></i>';
     } else {
-        audioPlayer.volume = volumeSlider.value = 0.7;
+        audioPlayer.volume = volumeSlider.value = 0.3;
         volumeBtn.innerHTML = '<i class="fas fa-volume-up"></i>';
     }
 }
