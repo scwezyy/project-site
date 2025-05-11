@@ -56,7 +56,7 @@ const gameAlbums = [
                 file: "audio/silverFM.mp3"
             },
             {
-                id: 102,
+                id: 103,
                 title: "The Battle of Kaer Morhen",
                 duration: "4:06",
                 file: "audio/theBattle.mp3"
