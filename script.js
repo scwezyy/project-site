@@ -89,6 +89,87 @@ const gameAlbums = [
                 file: "audio/onMyWay.mp3"
             }
         ]
+    },
+    {
+         id: 3,
+        title: "Hollow knight",
+        year: 2017,
+        cover: "https://upload.wikimedia.org/wikipedia/ru/e/eb/Hollow_Knight.jpg",
+        genre: "RPG",
+        tracks: [
+            {
+                id: 301,
+                title: "Truth, Beauty and Hatred",
+                duration: "3:50",
+                file: "audio/truth.mp3 "
+            },
+            {
+                id: 302,
+                title: "Sisters of Battle",
+                duration: "1:51",
+                file: "audio/sistersOfBattle.mp3"
+            },
+            {
+                id: 303,
+                title: "Hornet",
+                duration: "2:47",
+                file: "audio/hornet.mp3"
+            }
+        ]
+    },
+    {
+         id: 4,
+        title: "Death Stranding",
+        year: 2019,
+        cover: "https://upload.wikimedia.org/wikipedia/ru/e/ee/Death_Stranding_Poster.jpg",
+        genre: "RPG",
+        tracks: [
+            {
+                id: 401,
+                title: "Low Roar — I'll Keep Coming",
+                duration: "5:03",
+                file: "audio/LowRoar.mp3 "
+            },
+            {
+                id: 402,
+                title: "Almost Nothing",
+                duration: "4:58",
+                file: "audio/AlmostNothing.mp3"
+            },
+            {
+                id: 403,
+                title: "Poznan",
+                duration: "2:03",
+                file: "audio/Poznan.mp3"
+            }
+        ]
+    },
+    {
+         id: 5,
+        title: "Subnautica",
+        year: 2018,
+        cover: "https://upload.wikimedia.org/wikipedia/en/6/6d/Subnautica_cover_art.png",
+        genre: "RPG",
+        tracks: [
+            {
+                id: 501,
+                title: "Lift Off",
+                duration: "1:53",
+                file: "audio/Lift Off.mp3 "
+            },
+            {
+                id: 502,
+                title: "Sunbeams in the water",
+                duration: "1:42",
+                file: "audio/Sunbeams in the water.mp3"
+            },
+            {
+                id: 503,
+                title: "The Unknown",
+                duration: "4:12",
+                file: "audio/The Unknown.mp3"
+            }
+        ]
     }
 ];
 
