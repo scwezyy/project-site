@@ -47,19 +47,19 @@ const gameAlbums = [
                 id: 101,
                 title: "The Witcher 3 Main Theme",
                 duration: "2:45",
-                file: "audio/mainTheme.mp3"
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450754/mainTheme_qoelcc.mp3"
             },
             {
                 id: 102,
                 title: "Silver for Monsters",
                 duration: "3:22",
-                file: "audio/silverFM.mp3"
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450741/silverFM_kj5aim.mp3"
             },
             {
                 id: 103,
                 title: "The Battle of Kaer Morhen",
                 duration: "4:06",
-                file: "audio/theBattle.mp3"
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450767/theBattle_ahstqz.mp3"
             }
         ]   
     },
@@ -74,19 +74,19 @@ const gameAlbums = [
                 id: 201,
                 title: "The Rebel Path",
                 duration: "4:12",
-                file: "audio/theRebelPath.mp3"
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450710/Poznan_hqekga.mp3"
             },
             {
                 id: 202,
                 title: "I Really Want to Stay at Your House",
                 duration: "4:07",
-                file: "audio/iRealyWant.mp3"
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450727/iRealyWant_r2fsfs.mp3"
             },
             {
                 id: 203,
                 title: "On My Way to Hell",
                 duration: "5:20",
-                file: "audio/onMyWay.mp3"
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450736/onMyWay_y8li68.mp3"
             }
         ]
     },
@@ -101,19 +101,19 @@ const gameAlbums = [
                 id: 301,
                 title: "Truth, Beauty and Hatred",
                 duration: "3:50",
-                file: "audio/truth.mp3 "
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450765/truth_vm1itp.mp3"
             },
             {
                 id: 302,
                 title: "Sisters of Battle",
                 duration: "1:51",
-                file: "audio/sistersOfBattle.mp3"
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450738/sistersOfBattle_bdvvcn.mp3"
             },
             {
                 id: 303,
                 title: "Hornet",
                 duration: "2:47",
-                file: "audio/hornet.mp3"
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450716/hornet_mfvfpa.mp3"
             }
         ]
     },
@@ -128,19 +128,19 @@ const gameAlbums = [
                 id: 401,
                 title: "Low Roar — I'll Keep Coming",
                 duration: "5:03",
-                file: "audio/LowRoar.mp3 "
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450730/LowRoar_wimwfr.mp3"
             },
             {
                 id: 402,
                 title: "Almost Nothing",
                 duration: "4:58",
-                file: "audio/AlmostNothing.mp3"
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450731/AlmostNothing_fbs7yp.mp3"
             },
             {
                 id: 403,
                 title: "Poznan",
                 duration: "2:03",
-                file: "audio/Poznan.mp3"
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450710/Poznan_hqekga.mp3"
             }
         ]
     },
@@ -155,19 +155,97 @@ const gameAlbums = [
                 id: 501,
                 title: "Lift Off",
                 duration: "1:53",
-                file: "audio/Lift Off.mp3 "
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450725/Lift_Off_pr5fgu.mp3"
             },
             {
                 id: 502,
                 title: "Sunbeams in the water",
                 duration: "1:42",
-                file: "audio/Sunbeams in the water.mp3"
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450737/Sunbeams_in_the_water_oq9eqf.mp3"
             },
             {
                 id: 503,
                 title: "The Unknown",
                 duration: "4:12",
-                file: "audio/The Unknown.mp3"
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450769/The_Unknown_snojl1.mp3"
+            }
+        ]
+    },{
+         id: 6,
+        title: "Portal 2",
+        year: 2011,
+        cover: "https://upload.wikimedia.org/wikipedia/ru/d/dc/Portal_2_%28%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0%29.jpg",
+        genre: "RPG",
+        tracks: [
+            {
+                id: 601,
+                title: "Overgrowth",
+                duration: "2:50",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748560448/Overgrowth_apewxc.mp3"
+            },
+            {
+                id: 602,
+                title: "There She Is",
+                duration: "4:20",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748560447/There_She_Is_ucr1no.mp3"
+            },
+            {
+                id: 603,
+                title: "Ghost of Rattman",
+                duration: "4:06",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748560448/Ghost_of_Rattman_fhhm2v.mp3"
+            }
+        ]
+    },{
+         id: 7,
+        title: "The Last of Us II",
+        year: 2020,
+        cover: "https://upload.wikimedia.org/wikipedia/en/4/4f/TLOU_P2_Box_Art_2.png",
+        genre: "RPG",
+        tracks: [
+            {
+                id: 701,
+                title: "The Last of Us",
+                duration: "3:04",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748560446/The_Last_of_Us_hgatt4.mp3"
+            },
+            {
+                id: 702,
+                title: "13. Unbroken",
+                duration: "4:38",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748560449/13._Unbroken_cllns2.mp3"
+            }
+        ]
+    },{
+         id: 8,
+        title: "NFS: Most Wanted",
+        year: 2005,
+        cover: "https://upload.wikimedia.org/wikipedia/ru/1/15/NFS-Most-Wanted-Front.jpg",
+        genre: "RPG",
+        tracks: [
+            {
+                id: 801,
+                title: "Do ya thang",
+                duration: "4:26",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748561248/Do_ya_thang_gh83l0.mp3"
+            },
+            {
+                id: 802,
+                title: "I Am Rock",
+                duration: "3:22",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748561243/I_Am_Rock_u9hual.mp3"
+            }, 
+            {
+                id: 803,
+                title: "My Hood",
+                duration: "3:59",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748561501/My_Hood_cpyspq.mp3"
+            },
+            {
+                id: 804,
+                title: "Fired up",
+                duration: "3:21",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748561248/Fired_up_vij0kv.mp3"
             }
         ]
     }
