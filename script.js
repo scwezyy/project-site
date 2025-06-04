@@ -74,7 +74,7 @@ const gameAlbums = [
                 id: 201,
                 title: "The Rebel Path",
                 duration: "4:12",
-                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450710/Poznan_hqekga.mp3"
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748450772/theRebelPath_mwniiy.mp3"
             },
             {
                 id: 202,
@@ -246,6 +246,119 @@ const gameAlbums = [
                 title: "Fired up",
                 duration: "3:21",
                 file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1748561248/Fired_up_vij0kv.mp3"
+            }
+        ]
+    },
+    {
+         id: 9,
+        title: "Geometry Dash",
+        year: 2013,
+        cover: "https://upload.wikimedia.org/wikipedia/ru/4/41/Geometry_Dash_logo.webp",
+        genre: "RPG",
+        tracks: [
+            {
+                id: 901,
+                title: "Cant Let Go",
+                duration: "3:50",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1749077133/Cant_Let_Go_sz0qrp.mp3"
+            },
+            {
+                id: 902,
+                title: "Dash",
+                duration: "1:51",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1749077135/Dash_pgyfkq.mp3"
+            },
+            {
+                id: 903,
+                title: "Super Hexagon",
+                duration: "2:47",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1749077128/Super_Hexagon_aofguu.mp3"
+            },{
+                id: 904,
+                title: "Dry Out",
+                duration: "2:47",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1749077125/Dry_Ou_dxmysk.mp3"
+            }
+        ]
+    },
+    {
+         id: 10,
+        title: "God of War: Ragnarök",
+        year: 2022,
+        cover: "https://upload.wikimedia.org/wikipedia/ru/6/6e/God_of_War-_Ragnar%C3%B6k.jpg",
+        genre: "RPG",
+        tracks: [
+            {
+                id: 1001,
+                title: "God of War",
+                duration: "3:50",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1749077849/God_of_War_fn207n.mp3"
+            },
+            {
+                id: 1002,
+                title: "Perseus Battle",
+                duration: "1:51",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1749077857/Perseus_Battle_uhtolk.mp3"
+            },
+            {
+                id: 1003,
+                title: "The End Begins",
+                duration: "2:47",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1749077826/The_End_Begins_xp8k7s.mp3"
+            }
+        ]
+    },
+    {
+         id: 11,
+        title: "Grand Theft Auto V",
+        year: 2013,
+        cover: "https://upload.wikimedia.org/wikipedia/ru/c/c8/GTAV_Official_Cover_Art.jpg",
+        genre: "RPG",
+        tracks: [
+            {
+                id: 1101,
+                title: "3 stars",
+                duration: "3:50",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1749078215/3_stars_wanted_level_iifkly.mp3"
+            },
+            {
+                id: 1102,
+                title: "Bugatti",
+                duration: "1:51",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1749078216/Bugatti_wumg4w.mp3"
+            },
+            {
+                id: 1103,
+                title: "Sleepwalking",
+                duration: "2:47",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1749078214/Sleepwalking_wwdqpz.mp3"
+            }
+        ]
+    },
+    {
+         id: 12,
+        title: "Far Cry 3",
+        year: 2012,
+        cover: "https://upload.wikimedia.org/wikipedia/ru/a/a0/Far_Cry_3_Box_Art_PC.jpeg",
+        genre: "RPG",
+        tracks: [
+            {
+                id: 1201,
+                title: "Skrillex",
+                duration: "3:50",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1749078703/Skrillex_x74dfs.mp3"
+            },
+            {
+                id: 1202,
+                title: "Sloan",
+                duration: "1:51",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1749078703/Sloan_n4pu8j.mp3"
+            },
+            {
+                id: 1203,
+                title: "Far Cry 3 Ost",
+                duration: "2:47",
+                file: "https://res.cloudinary.com/dw73jgy3u/video/upload/v1749078703/Far_Cry_3_Ost_mtwtyd.mp3"
             }
         ]
     }
